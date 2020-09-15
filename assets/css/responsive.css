@@ -1,0 +1,212 @@
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+@media (max-width: 1200px) {
+	.article-section-2,
+	.article-section-3{
+		margin-left: 10px;
+	}
+}
+
+
+
+/********************************************************/
+/* Max-Width 1040PX     *********************************/
+/********************************************************/
+@media (max-width: 1040px) {
+	.container-main{
+		width: 1040px;
+	}
+}
+
+
+
+/********************************************************/
+/* Max-Width 767PX     **********************************/
+/********************************************************/
+@media (max-width: 768px) {
+	.article-section-2,
+	.article-section-3{
+		margin-left: 20px;
+	}
+	.left-article {
+    height: 340px;
+	}
+	.left-text p, .right-text p {
+    font-size: 18px;
+  }
+  .left-article img, .right-article img {
+    height: 340px;
+  }
+  .footer-content .part-two p {
+    font-size: 1.3em;
+	}
+	.copyright {
+    font-size: 19px;
+	}
+}
+
+
+
+/********************************************************/
+/* Max-Width 576PX     **********************************/
+/********************************************************/
+@media (max-width: 576px) {
+	.section-header, .logo-header-section {
+    display: block;
+    text-align: center;
+	}
+	.left-header {
+    width: 100%;
+	}
+	.header-content ul {
+    width: 30%;
+    margin: 0 auto;
+	}	
+	.logo-section {
+		margin: 0 auto;
+	}
+	.logo-header h1 ,.header-content h2{
+    font-size: 2.5rem;
+	}
+	.logo-header p {
+    font-size: 1.8rem;
+  }
+  .header-content p, .header-content ul {
+    font-size: 1.9rem;
+	}
+	.right-header {
+	    width: 100%;
+	}
+	.right-header img {
+    width: 60%;
+	}
+	.right-header .locked-out {
+    width: 50%;
+    font-size: 1.4em;
+    margin: 0 auto;
+	}
+	.article-section p {
+		font-size: 1.8rem;
+    text-align: center;
+	}
+	.article-section-2 {
+    display: block;
+  }
+  .left-article,.right-article {
+    width: 50%;
+    background: none;
+    display: block;
+    margin: 0 auto;
+	}
+	.left-article img, .right-article img {
+    width: 80%;
+    float: left;
+    margin-top: 40px;
+    height: 320px;
+	}
+	.left-text, .right-text {
+    display: block;
+    width: 100%;
+	}
+	.left-text h3, .right-text h3 {
+    font-size: 2.5em;
+	}
+	.left-text p, .right-text p {
+    font-size: 1.7em;
+    margin-top: 10px;
+    width: 100%;
+	}
+	.article-section-3 {
+    display: inline-block;
+  }
+	.left-article-2 {
+    width: 60%;
+    margin: 0 auto;
+    background: none;
+    margin-bottom: 70px;
+	}
+	.left-text-2 h3 {
+    font-size: 2.5em;
+  }
+  .left-text-2 ul {
+    margin-left: 50px;
+    font-size: 1.7em;
+  }
+	.right-article-2 {
+	    margin: 0 auto;
+	}
+	.right-article-2 .img-1{
+    width: 93%;
+    height: 280px;
+	}
+	.right-article-2 .img-2 {
+    width: 45%;
+    margin-left: 166px;
+	}
+	.right-article-2 .img-3 {
+	    width: 90%;
+	}
+	.footer .footer-content {
+    display: block;
+	}
+	.footer-content .part-one, .footer-content .part-two, .footer-content .part-part {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+	}
+  .footer-content h3 {
+    font-size: 2.5em;
+  }
+  .footer-content .part-two p {
+    font-size: 1.7em;
+	}
+	.footer-content .part-two p span {
+     width: 100%;
+    }
+  .footer-content .part-three {
+     text-align: center;
+  }
+  .footer-content .part-three a {
+    font-size: 1.7em;
+  }
+  .copyright {
+    font-size: 1.5em;
+	}
+}
+
+/********************************************************/
+/* Max-Width 320px     **********************************/
+/********************************************************/
+@media (max-width: 320px) {
+	.logo-header h1, .header-content h2 {
+    font-size: 2.7rem;
+	}
+	.header-content p, .header-content ul,.right-header p {
+	    font-size: 2.1rem;
+	}
+  .right-header .locked-out .lock {
+    font-size: 1.7em;
+  }
+  .left-text p, .right-text p,
+  .left-text-2 ul,
+  .footer-content .part-three a,
+  .footer-content .part-two p {
+    font-size: 2em;
+  }
+  .article-section p {
+    font-size: 2rem;
+   letter-spacing: inherit;
+	}
+	.footer-content h3 {
+	    font-size: 2.8em;
+	}
+	.footer-content .part-three a i {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+	.copyright {
+    font-size: 2em;
+	}
+}
